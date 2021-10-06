@@ -1,0 +1,48 @@
+body {
+  background-color: antiquewhite;
+}
+
+nav {
+  border: 20px;
+  background-color: darkcyan;}
+
+.nav-menu-item {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 5px;
+}
+
+form {
+  padding: 20px;
+  background-color: darkgray;
+  width: 380px;
+}
+
+input {
+  padding: 15px;
+}
+
+button {
+  width: 220px;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  background-color: darkcyan
+}
+
+.title {
+  line-height: 18px;
+  font-size: 14px;
+  color: darkcyan;
+}
+
+footer {
+  font-weight: bold;
+  font-size: 12px;
+}
