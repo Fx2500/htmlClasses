@@ -4,34 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <script src="./assets/script.js"></script>
     <title>Otterwise-pets</title>
   </head>
   <body>
     <header class="topbar">
       <section class="navbar">
-        <img src="/img/brand-logo.png" alt="logo-mini" class="logo" />
+        <img src="./assets/img/brand-logo.png" alt="logo-mini" class="logo" />
+        <div class="menu">
+        <input type="checkbox" id="toggle" class="toggle">
         <nav>
           <ul class="navlist">
-            <li>GALERIA</li>
-            <li>CONTATO</li>
-            <li>SOCIAL</li>
+            <li><a href="#">GALERIA</a></li>
+            <li><a href="#">CONTATO</a></li>
+            <li><a href="#">SOCIAL</a></li>
           </ul>
         </nav>
-        <div class="container">
-          <div id="hamburger">
-             <span></span>
-             <span></span>
-             <span></span>
-         </div> 
-     </div>
+        <label for="toggle" class="toggle-label">
+          <span class="hambuger"></span>
+        </label>
+        </div>
       </section>
       <section class="head">
         <div>
         <img
           class="head-img"
           id="responsive"
-          src="/img/background.png"
+          src="./assets/img//backgrounds/background.png"
           alt="splash art"
         />
         </div>
@@ -46,24 +46,24 @@
     </header>
     <main>
       <section class="gallery">
-        <img src="/img/dog_1 1.png" alt="img1" />
-        <img src="/img/cat_1 1.png" alt="img2" />
-        <img src="/img/dog_2 1.png" alt="img3" />
-        <img src="/img/cat_2 1.png" alt="img4" />
-        <img src="/img/dog_3 1.png" alt="img5" />
-        <img src="/img/cat_3 1.png" alt="img6" />
+        <img src="./assets/img/gallery/dog_1 1.png" alt="img1" />
+        <img src="./assets/img/gallery/cat_1 1.png" alt="img2" />
+        <img src="./assets/img/gallery/dog_2 1.png" alt="img3" />
+        <img src="./assets/img/gallery/cat_2 1.png" alt="img4" />
+        <img src="./assets/img/gallery/dog_3 1.png" alt="img5" />
+        <img src="./assets/img/gallery/cat_3 1.png" alt="img6" />
       </section>
       <section class="message-splash">
-        <form class="message-form">
-          <label for="name" class="label">Nome completo</label>
-          <input type="text" class="user-input" />
-          <label for="email" class="label">E-mail</label>
-          <input type="email" class="user-input" />
-          <label for="phone" class="label">Telefone</label>
-          <input type="tel" class="user-input" />
+        <form class="message-form">Login
+          <label for="name" class="label" >Nome completo</label>
+          <input type="text" class="user-input" id="name" />
+          <label for="email" class="label"  >E-mail</label>
+          <input type="email" class="user-input" id="email" />
+          <label for="phone" class="label" id=>Telefone</label>
+          <input type="tel" class="user-input" id="phone" />
           <label for="message" class="label">Mensagem</label>
-          <textarea class="message" cols="30" rows="10"></textarea>
-          <button class="send-button" type="button">ENVIAR</button>
+          <textarea class="message" cols="30" rows="10" id="message" ></textarea>
+          <button class="send-button" type="submit" id="button">ENVIAR</button>
         </form>
       </section>
     </main>
